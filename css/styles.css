@@ -141,6 +141,10 @@ flex-direction: row;
   width: 50%;
 }
 
+header h2 {
+  font-size: 2rem;
+}
+
 }
 
 
