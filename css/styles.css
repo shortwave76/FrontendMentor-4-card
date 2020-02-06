@@ -19,7 +19,7 @@ body {
 }
 
 .container {
-  margin: 2rem 1rem;
+  margin: 2rem auto;
   display: flex;
   padding: 5px;
   flex-wrap: wrap;
