@@ -1,0 +1,180 @@
+* {
+  box-sizing: border-box;;
+}
+
+body {
+  background-color: hsl(0, 0%, 98%);
+  font-family: 'Poppins', sans-serif;
+  min-width: 333px;
+  margin: 0;
+
+}
+
+.attribution {
+  font-size: 11px; text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.container {
+  margin: 2rem 1rem;
+  display: flex;
+  padding: 5px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+
+
+.header {
+  width: 317px;
+  margin: 3rem auto;
+
+}
+
+header h2 {
+  margin: 0;
+  text-align: center;
+}
+
+header p {
+  text-align: center;
+  margin: 2rem auto;
+}
+
+
+
+.font200 {
+  font-weight: 200;
+}
+
+.lbfont {
+  color: hsl(229, 6%, 66%);
+}
+
+.dbfont {
+  color: hsl(234, 12%, 34%);
+
+}
+
+.card {
+  border-radius: 5px;
+  padding: 2rem 1rem 11px 1rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 6px 11px 2px #cccccc;
+  font-size: 15px;
+  width: 317px;
+  height: 225px;
+  background-color: white;
+
+}
+
+
+.r-stripe {
+
+  border-top: 5px solid hsl(0, 78%, 62%);
+
+}
+
+.c-stripe {
+  border-top: 5px solid hsl(180, 62%, 55%);
+}
+
+.o-stripe {
+  border-top: 5px solid hsl(34, 97%, 64%);
+}
+
+.b-stripe {
+border-top: 5px solid hsl(212, 86%, 64%);
+}
+
+.card h3 {
+  margin: 0 0 .5rem 0;
+  color: hsl(234, 12%, 34%);
+}
+
+.card p {
+  margin: 0;
+  color: hsl(229, 6%, 66%);
+}
+
+.card img {
+  float: right;
+  display: block;
+  padding: 1rem;
+}
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.center-cards {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+
+@media (min-width:768px) {
+
+.center-cards {
+flex-direction: row;
+
+}
+
+.r-stripe {
+  margin-right: 1rem;
+}
+
+.o-stripe {
+  margin-left: 1rem;
+}
+
+.header {
+  width: 50%;
+}
+
+}
+
+
+
+
+@media (min-width:1080px) {
+
+.container {
+  flex-direction: row;
+}
+
+.center-cards {
+  flex-direction: column;
+}
+
+.header {
+  width: 70%;
+  margin: 3rem auto;
+}
+
+.r-stripe {
+  margin-right: 0;
+}
+
+.o-stripe {
+  margin-left: 0;
+}
+
+header h2 {
+  font-size: 2rem;
+}
+
+header p {
+  width: 50%;
+  margin: 2rem auto;
+}
+
+}
